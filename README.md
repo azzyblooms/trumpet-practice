@@ -16,11 +16,19 @@ HOW TO USE
 CONTROLS
 
 P - 1st button
+
 O - 2nd button
+
 I - 3rd button
 
+
+
 Z - 1st register (low F# to C)
+
 X - 2nd register (C# to G)
+
 C - 3rd register (G# to high C)
+
 V - 4th register (high C# to high E)
+
 B - 5th register (high F to high G)
