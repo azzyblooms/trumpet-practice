@@ -10,7 +10,7 @@ Since you can't blow into your keyboard to control the pitch (I mean, I hope you
 
 HOW TO USE
 
-- Take your keyboard, turn it 90 degrees clockwise, and place the end at your chin or mouth. Your right index, middle, and ring fingers should rest on the P, O, and I keys respectively. Your left index, middle, ring, and pinky fingers should rest on the V, C, X, and Z keys. Both thumbs should be under the keyboard to provide support.
+- Take your keyboard, turn it 90 degrees (clockwise), and place the end at your chin or mouth. Your right index, middle, and ring fingers should rest on the P, O, and I keys respectively. Your left index, middle, ring, and pinky fingers should rest on the V, C, X, and Z keys. Both thumbs should be under the keyboard to provide support.
 - Use one of the left-hand keys (Z, X, C, V, B) to play a note. The note that plays depends on which buttons are down and left-hand key you pressed.
 
 CONTROLS
