@@ -1,5 +1,5 @@
 # trumpet-practice
-sorry if this is messy, its my first project
+https://azzyblooms.itch.io/trumpet
 
 ## IMPORTANT! FOR DETATCHED KEYBOARD ONLY! Laptop functionality will be added at a later date.
 
