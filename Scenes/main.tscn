@@ -1,0 +1,38 @@
+[gd_scene load_steps=9 format=3 uid="uid://cdkvuqs315kt1"]
+
+[ext_resource type="PackedScene" uid="uid://63jo35h8jft5" path="res://Scenes/trumpet.tscn" id="1_bo1nx"]
+[ext_resource type="Script" uid="uid://d2qidjclei7aj" path="res://Scenes/trumpet2.gd" id="2_6bp64"]
+[ext_resource type="PackedScene" uid="uid://bl010l1ngjwh" path="res://Scenes/button1.tscn" id="2_8gbba"]
+[ext_resource type="PackedScene" uid="uid://de2r3knx6cm7c" path="res://Scenes/button2.tscn" id="3_jjvhh"]
+[ext_resource type="Script" uid="uid://cw6d1p77q70ki" path="res://Scenes/button_2.gd" id="4_21xkr"]
+[ext_resource type="PackedScene" uid="uid://bfmjw2cb1wofa" path="res://Scenes/button3.tscn" id="4_kry3j"]
+[ext_resource type="Script" uid="uid://cen8umgme8w3d" path="res://Scenes/button_3.gd" id="6_6bp64"]
+[ext_resource type="Texture2D" uid="uid://ca1j5bf34p1qq" path="res://Assets/myImages/adfhdaahffahfd.jpg" id="9_ynf5e"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Trumpet" parent="." instance=ExtResource("1_bo1nx")]
+position = Vector2(561, 316)
+scale = Vector2(0.25, 0.25)
+script = ExtResource("2_6bp64")
+
+[node name="Button1" parent="." instance=ExtResource("2_8gbba")]
+position = Vector2(459, 247.5)
+scale = Vector2(0.25, 0.25)
+
+[node name="Button2" parent="." instance=ExtResource("3_jjvhh")]
+position = Vector2(504, 247.5)
+scale = Vector2(0.25, 0.25)
+script = ExtResource("4_21xkr")
+
+[node name="Button3" parent="." instance=ExtResource("4_kry3j")]
+position = Vector2(550, 247.5)
+scale = Vector2(0.25, 0.25)
+script = ExtResource("6_6bp64")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.934912, 0.891988, 0.99734, 1)
+z_index = -3
+position = Vector2(576, 358)
+scale = Vector2(0.598958, 0.593518)
+texture = ExtResource("9_ynf5e")

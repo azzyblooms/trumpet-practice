@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://63jo35h8jft5"]
+
+[ext_resource type="Script" uid="uid://d2decwa5eyo2n" path="res://Scenes/trumpet.gd" id="1_huqf4"]
+[ext_resource type="Texture2D" uid="uid://cp20vsoc7ytd0" path="res://Assets/myImages/trumpetnobuttons.png" id="1_oa0d3"]
+[ext_resource type="AudioStream" uid="uid://byr6nowlaisg8" path="res://Assets/Sounds/doot.wav" id="3_js8oa"]
+
+[node name="Trumpet" type="Node2D"]
+script = ExtResource("1_huqf4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_oa0d3")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_js8oa")
+max_polyphony = 10

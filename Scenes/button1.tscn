@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://bl010l1ngjwh"]
+
+[ext_resource type="Script" uid="uid://bnt6ecep8ddbj" path="res://Scenes/button_1.gd" id="1_7lpty"]
+[ext_resource type="Texture2D" uid="uid://c4iqksuujibel" path="res://Assets/myImages/closedbutton.png" id="1_nn47m"]
+[ext_resource type="Texture2D" uid="uid://by30qtj4bjwou" path="res://Assets/myImages/openbutton.png" id="2_7lpty"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jpigy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_nn47m")
+}],
+"loop": true,
+"name": &"closed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_7lpty")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Button1" type="Node2D"]
+script = ExtResource("1_7lpty")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(53, 71)
+sprite_frames = SubResource("SpriteFrames_jpigy")
+animation = &"closed"
+frame_progress = 0.123791
