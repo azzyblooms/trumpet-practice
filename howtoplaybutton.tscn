@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dtwtu82rs61mf"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "button"
+
+[node name="TextBox" type="RichTextLabel" parent="."]
+offset_left = 321.0
+offset_top = 74.0
+offset_right = 676.0
+offset_bottom = 209.0
+text = "hey twin"
